@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+<script src="https://kit.fontawesome.com/ab8a8a2ce4.js" crossorigin="anonymous"></script>
+
+<title>Mina Nasr</title>
+</head>
+<body>
+    <!-- ___________________Header________________________ -->
+    <nav>
+        <div class="logo" ></div>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark"  id="closeMenu" ></i>
+
+        </ul>
+        <i class="fa-solid fa-bars"  id="openMenu" ></i>
+    </nav>
+    <section id="header">
+        <div class="container">
+           
+            <div class="header_text">
+                <p>UX / UI Designer</p>
+                <h1>Hi, I am <span>Mina</span> </h1>
+            </div>
+        </div>
+    </section>
+        <!-- ___________________About________________________ -->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol-1">
+                    <div id="image-AboutMe">
+
+                    </div>
+                </div>
+                <div class="aboutcol-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        I am Mina, a passionate UX/UI designer with a love for web design and a knack for problem-solving. 
+                        Patience and kindness are at the core of my approach, enriched by the transformative experience of motherhood. 
+                        With a solid foundation in coding, I bring technical expertise and a flexible mindset to my work. 
+                        My design philosophy centres on joyful hues and understated beauty in an effort to produce meaningful experiences.
+                    </p>
+                    <div class="tab_title">
+                        <p class="tab_links active-links title" onclick="opentab('skills')  ">Skills</p>
+                        <p class="tab_links title" onclick ="opentab('experiences')">Experience</p>
+                        <p class="tab_links title" onclick ="opentab('educations')"> Education </p>
+                    </div>
+                    <div class="tab-contents active-tabs" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training at ETInstitute</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li> 
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at CoinDigital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="educations">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2016</span><br>MBA from MIT Bangalore.</li> 
+                            <li><span>2014</span><br>BBA from ISM Bangalore.</li>
+                        </ul>
+                    <div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+        <!-- ___________________services________________________ -->
+    <section id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <article>
+                    <i class="fa-solid fa-code"></i>
+                    <h2 class="title">Web Design and Development</h2>
+                    <p class="text">
+                        -Visually appealing and user-friendly website design.<br>
+                        -Expertise in HTML, CSS, and JavaScript for creating visually appealing and user-friendly websites<br>
+                        -Responsive design for optimal user experience across devices.<br>
+                    </p>
+                    <a href="#">Learn more</a>
+                </article>
+                <article>
+                    <i class="fa-solid fa-tv"></i>
+                    <h2 class="title">UX/UI Design</h2>
+                    <p class="text">
+                        -UI/UX design with tools like Sketch and Figma.<br>
+                        -Creation of wireframes and prototypes for user testing.<br>
+                        -Integration of captivating motion graphics using Adobe After Effects and Cinema 4D.<br>
+                    </p>
+                    <a href="#">Learn more</a>
+                </article>
+                <article>
+                    <i class="fa-solid fa-film"></i>
+                    <h2 class="title">Motion Graphics</h2>
+                    <p class="text">
+                        
+                        -Captivating animations using Adobe After Effects and Cinema 4D.<br>
+                        -Integration of motion graphics to enhance digital experiences.<br>
+                        -Collaborative development of customized visual solutions tailored to client objectives.<br>
+                    </p>
+                    <a href="#">Learn more</a>
+                </article>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Work -->
+    <section id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <figure  id="ux_mockup"></figure>
+                    <div class="layer">
+                        <h3 class="title">Intuitive UX/UI Design </h3>
+                        <p >Specializing in crafting seamless digital experiences through user research, prototyping, and visual design. 
+                            Prioritizing simplicity and user satisfaction to achieve business objectives.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <figure  id="web_mockup"></figure>
+                        <div class="layer">
+                            <h3 class="title">Digital Experience Architects </h3>
+                            <p > Specialists in web design and development, combining cutting-edge design principles with robust development techniques.
+                                Our focus is on creating immersive digital experiences that captivate users and drive results.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <figure  id="motion_mockup"></figure>
+                    <div class="layer">
+                        <h3 class="title">Dynamic Motion Designers</h3>
+                        <p >Specializing in motion design, expertise lies in crafting captivating animations that enhance digital experiences. 
+                            Focus is on creating fluid and engaging motion graphics that elevate user interaction and storytelling on the web.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </section>
+
+    <!-- ------------------------------------- Contact -------------------------------------- -->
+    <section id="contact">
+      <div  class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>mina.nasr23211@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i>4166064640</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-behance"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="assets/images/Mina_nasr-Version.pdf"  download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Messgae"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+
+        </div>
+      </div>
+     <div class="copyRight">
+        <p> © 2024. All rights reserved. Made with <i class="fa-solid fa-heart"></i> By Mina Nasr</p>
+     </div>
+
+    </section>
+
+
+
+
+
+
+    <script >
+
+        var tablinks = document.getElementsByClassName("tab_links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          
+            for(tablink of tablinks){
+                tablink.classList.remove('active-links');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tabs');
+            }
+            event.currentTarget.classList.add('active-links');
+            document.getElementById(tabname).classList.add('active-tabs');
+
+}
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
