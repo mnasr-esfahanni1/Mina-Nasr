@@ -92,7 +92,9 @@ nav ul li a:hover::after{
 #image-AboutMe{
     height: 60vh;
     width: 100%;
-    background-color: #8d99ae;
+    background-image: url(../images/Profile.jpeg);
+    background-size: cover;
+    background-position: center;
     border-radius: 15px;
 }
 #about{
