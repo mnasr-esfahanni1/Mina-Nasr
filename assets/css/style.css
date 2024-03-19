@@ -123,7 +123,7 @@ nav ul li a:hover::after{
 }
 /* -----------------------------------About me Section----------------------------------- */
 #image-AboutMe{
-    height: 65vh;
+    height: 550px;
     width: 100%;
     background-image: url(../images/Profile_without\ Back.png);
     background-size: 350%;
@@ -134,6 +134,7 @@ nav ul li a:hover::after{
 #about{
     padding: 40px 0;
     background-color: #edf2f4;
+    padding-top: 15vh;
 } 
 .row{
     display: flex;
@@ -206,6 +207,7 @@ nav ul li a:hover::after{
 /* -----------------------------------Services----------------------------------- */
 #Services{
     padding: 30px 0;
+    padding-top: 10vh;
 }
 .service-list{
     display: grid;
@@ -249,6 +251,8 @@ display: inline-block;
 
 #Portfolio{
     padding: 50px 0;
+    padding-top: 10vh;
+
 }
 .work-list{
     display: grid;
@@ -352,6 +356,10 @@ color: #ffffff;
 }
 
 /* --------------------------Contact----------------- */
+#contact{
+    padding-top: 15vh;
+    height: 100vh;
+}
 .contact-left{
     flex-basis: 35%;
 }
@@ -419,6 +427,8 @@ form .btn2{
     background: #add4d9;
     font-weight: 300;
     margin-top: 20px;
+    position: absolute;
+    bottom: 0;
 }
 .copyRight p i{
     color: #d90429;
@@ -436,9 +446,13 @@ nav .fa-solid{
     } 
     .header_text{
         font-size: 16px;
-        padding-top: 5%;
+        padding-top: 2%;
         width: 100%;
+        margin-top: -15px;
+        display: flex;
+        flex-direction: column;
     } 
+    
     .header_text h1{
         font-size: 30px;
     }
@@ -457,6 +471,7 @@ nav .fa-solid{
         z-index: 2; 
         transition: right ease 0.5s;
     }
+   
     nav ul li{
         display: block;
         margin: 25px;
@@ -472,6 +487,9 @@ nav .fa-solid{
     .sub-title{
         font-size: 40px;
       
+    }
+    #image-AboutMe{
+        height: 450px;
     }
     .aboutcol-1 , .aboutcol-2{
         flex-basis: 100%;

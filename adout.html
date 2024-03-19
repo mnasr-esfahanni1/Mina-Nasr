@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+<script src="https://kit.fontawesome.com/ab8a8a2ce4.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+<title>Mina Nasr</title>
+</head>
+<body>
+    <!-- ___________________Header________________________ -->
+    <nav>
+        <div class="logo" ></div>
+        <ul id="sidemenu">
+            <li style="--i:1"><a href="index.html">Home</a></li>
+            <li style="--i:2"><a href="adout.html">About</a></li>
+            <li style="--i:3"><a href="services.html">Services</a></li>
+            <li style="--i:4"><a href="Portfolio.html">Portfolio</a></li>
+            <li style="--i:5"><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-square-xmark"  id="closeMenu" ></i>
+
+        </ul>
+        <i class="fa-solid fa-bars"  id="openMenu" ></i>
+    </nav>
+    
+        <!-- ___________________About________________________ -->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol-1">
+                    <div id="image-AboutMe">
+
+                    </div>
+                </div>
+                <div class="aboutcol-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        I am Mina, a passionate UX/UI designer with a love for web design and a knack for problem-solving. 
+                        Patience and kindness are at the core of my approach, enriched by the transformative experience of motherhood. 
+                        With a solid foundation in coding, I bring technical expertise and a flexible mindset to my work. 
+                        My design philosophy centres on joyful hues and understated beauty in an effort to produce meaningful experiences.
+                    </p>
+                    <div class="tab_title">
+                        <p class="tab_links active-links title" onclick="opentab('skills')  ">Skills</p>
+                        <p class="tab_links title" onclick ="opentab('experiences')">Experience</p>
+                        <p class="tab_links title" onclick ="opentab('educations')"> Education </p>
+                    </div>
+                    <div class="tab-contents active-tabs" id="skills">
+                        <ul>
+                            <li><span> UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Frontend Development</span><br>Frontend Development</li>
+                            <li><span>Motion Design</span><br>Creating Dynamic Visual Experiences</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Peer Tutor / Teaching Assistant</li>
+                            <li><span>2020 - 2022</span><br>Customer Service Representative</li>
+                            <li><span>2014 - 2019</span><br>Web Developer/Designer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="educations">
+                        <ul>
+                            <li><span>2024</span><br>Interactive Media Design, College Diploma</li>
+                            <li><span>2022</span><br>Computer Programming, College Diploma</li> 
+                            <li><span>2011</span><br>Information technology (IT Engineer), Bachelor's Degree</li>
+                        </ul>
+                    <div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+        <!-- ___________________services________________________ -->
+    
+    
+
+
+    <script >
+
+        var tablinks = document.getElementsByClassName("tab_links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          
+            for(tablink of tablinks){
+                tablink.classList.remove('active-links');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tabs');
+            }
+            event.currentTarget.classList.add('active-links');
+            document.getElementById(tabname).classList.add('active-tabs');
+
+}
+    </script>
+      <script>
+        var typed = new Typed('.text1', {
+            strings: [" Web Designer" , "UX/UI Designer" , "Front End Developer"],
+   typeSpeed:100, 
+   backSpeed: 100, 
+   backDelay: 1000,
+  loop: true
+        });
+      </script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
