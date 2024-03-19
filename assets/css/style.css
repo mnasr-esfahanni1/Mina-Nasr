@@ -41,12 +41,15 @@ nav{
 
 }
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background-image: url(../images//LogoWithoutName.png) ; 
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: default;
+    opacity: 0;
+    animation: sildeRight 1s ease forwards;
 }
 nav ul li{
     display: inline-block;
@@ -54,6 +57,9 @@ nav ul li{
     margin: 10px 20px;
     font-weight: 700;
     font-style: normal;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
     
 }
 nav ul li a{
@@ -61,6 +67,9 @@ nav ul li a{
    color: #2b2d42;
    font-size: 18px;
    position: relative;
+   transition: .3s;
+   font-weight: 500;
+  
 }
 nav ul li a::after{
     content: '';
@@ -85,15 +94,27 @@ nav ul li a:hover::after{
 .header_text h3{
     margin-top: 20px;
     font-size: 30px;
+    opacity: 0;
+    animation: SlideBottom 1s ease forwards;
+    animation-delay: .7s;
+    height: 40px;
 }
 .header_text p{
     font-size: 20px;
     padding-top: 25px;
     line-height: 30px;
+    opacity: 0;
+    animation: SildeLeft 1s ease 1s forwards;
 }
 #Myname{
     color: #d90429;
     font-weight: 600;
+    margin-top: 10px;
+    font-size: 50px;
+    animation: sildeRight 1s ease 1s forwards;
+    opacity: 0;
+
+
 }
 .text1{
     font-weight: 600;
@@ -492,4 +513,50 @@ color:#4b5863;
  display: block;
  font-weight: 600;
  font-size: 30px;
+}
+
+@keyframes sildeRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes SildeLeft {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+@keyframes slideTop {
+    0%{
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+@keyframes SlideBottom {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
 }
