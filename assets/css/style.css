@@ -16,7 +16,7 @@ body{
 }
 #header{
     width: 100vw;
-    height: 85vh;
+    height: calc(100vh - 8vh);
     background-image: url(../images/back.png);
     background-position: 80% center;
     background-repeat: no-repeat;
@@ -82,12 +82,23 @@ nav ul li a:hover::after{
     font-size: 30px;
     width: 30vw;
 }
-.header_text h1{
+.header_text h3{
     margin-top: 20px;
-    font-size: 60px;
+    font-size: 30px;
 }
-.header_text span{
+.header_text p{
+    font-size: 20px;
+    padding-top: 25px;
+    line-height: 30px;
+}
+#Myname{
     color: #d90429;
+    font-weight: 600;
+}
+.text1{
+    font-weight: 600;
+    font-size: 28px ;
+   color: #8d99ae;
 }
 /* -----------------------------------About me Section----------------------------------- */
 #image-AboutMe{
@@ -273,6 +284,7 @@ display: inline-block;
     margin: 20px 0;
     color: #fff;
     font-size: 14px;
+    
 }
 .layer p{
     color: #fff;
@@ -347,6 +359,7 @@ color: #ffffff;
 .social-icons a:hover{
     color: #d90429;
     transform: translateY(-5px);
+    box-shadow: 0 0 20px #add4d9 ;
 }
 .btn2{
     display: inline-block;
@@ -398,11 +411,12 @@ nav .fa-solid{
      
         background-position: 15% bottom;
         background-size: 90%;
-        height:70vh;
+        height:80vh;
     } 
     .header_text{
         font-size: 16px;
-        padding-top: 20%;
+        padding-top: 5%;
+        width: 100%;
     } 
     .header_text h1{
         font-size: 30px;

@@ -1,6 +1,9 @@
 
 console.log("test")
 
+
+
+
 var sidemenu = document.getElementById("sidemenu");
 var closeMenue = document.getElementById('closeMenu');
 var openMenu = document.getElementById('openMenu');

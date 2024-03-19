@@ -11,6 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
 <script src="https://kit.fontawesome.com/ab8a8a2ce4.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
 
 <title>Mina Nasr</title>
 </head>
@@ -33,9 +35,15 @@
         <div class="container">
            
             <div class="header_text">
-                <p>UX / UI Designer</p>
-                <h1>Hi, I am <span>Mina</span> </h1>
+                <h3>Hello, It's Me <span id="Myname">Mina Nasr</span> </h3>
+                <h3>And I'm a <span class="text1"></span></h3>
+                
+                <p> Welcome to my portfolio, where every pixel and line of code
+                     reflects my dedication to crafting immersive digital experiences.
+                </p>
             </div>
+
+          
         </div>
     </section>
         <!-- ___________________About________________________ -->
@@ -228,6 +236,16 @@
 
 }
     </script>
-    <script src="assets/js/main.js"></script>
+      <script>
+        var typed = new Typed('.text1', {
+            strings: [" Web Designer" , "UX/UI Designer" , "Front End Developer"],
+   typeSpeed:100, 
+   backSpeed: 100, 
+   backDelay: 1000,
+  loop: true
+        });
+      </script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
