@@ -16,12 +16,13 @@ body{
 }
 #header{
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
     background-image: url(../images/back.png);
     background-position: 80% center;
     background-repeat: no-repeat;
     background-size: 50%;
     background-color: #edf2f4;
+    padding-top: 8vh;
 }
 .container{
     padding: 10px 10%;
@@ -90,16 +91,16 @@ nav ul li a:hover::after{
 }
 /* -----------------------------------About me Section----------------------------------- */
 #image-AboutMe{
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     background-image: url(../images/Profile_without\ Back.png);
     background-size: 350%;
-    background-position: 45% center;
+    background-position: 46% center;
     border-radius: 15px;
     background-color: #add4d9;
 }
 #about{
-    padding: 80px 0;
+    padding: 40px 0;
     background-color: #edf2f4;
 } 
 .row{
@@ -126,12 +127,12 @@ nav ul li a:hover::after{
 }
 .tab_title{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 10px 0 2.5vh;
 }
 .tab_links{
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     position: relative;
 }
@@ -144,6 +145,7 @@ nav ul li a:hover::after{
     left: 0;
     bottom: -8px;
     transition: 1s;
+    margin-bottom: 10px;
 }
 
 .tab_links.active-links::after{
@@ -160,6 +162,7 @@ nav ul li a:hover::after{
 .tab-contents ul li span{ 
     font-weight: 500;
     color: #d90429;
+    margin-top: 10px;
     
 }
 .tab-contents{
