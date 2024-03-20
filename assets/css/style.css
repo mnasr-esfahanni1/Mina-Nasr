@@ -8,26 +8,6 @@ body{
 
 
 }
-.title{
-    font-size: 20px !important;
-    font-weight: 600 !important;
-    color: #4b5863;
-
-}
-#header{
-    width: 100vw;
-    height: calc(100vh - 8vh);
-    background-image: url(../images/back.png);
-    background-position: 80% center;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-color: #edf2f4;
-    padding-top: 8vh;
-}
-.container{
-    padding: 10px 10%;
-}
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -86,10 +66,40 @@ nav ul li a:hover::after{
     width: 100%;
  
 }
+.title{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #4b5863;
+
+}
+#header{
+    width: calc(100vw - 20%);
+    height: calc(100vh - 8vh);
+    display: flex;
+    background-color: #edf2f4;
+    padding-top: 8vh;
+   
+    padding: 0 10%;
+    align-items: center;
+    
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+.header_Hero{
+    background-image: url(../images/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:50vw;
+    height: 100%;
+}
+
 .header_text{
-    margin-top: 20%;
     font-size: 30px;
-    width: 30vw;
+    width: 50vw;
 }
 .header_text h3{
     margin-top: 20px;
@@ -105,6 +115,7 @@ nav ul li a:hover::after{
     line-height: 30px;
     opacity: 0;
     animation: SildeLeft 1s ease 1s forwards;
+    width: 80%;
 }
 #Myname{
     color: #d90429;
@@ -358,7 +369,7 @@ color: #ffffff;
 /* --------------------------Contact----------------- */
 #contact{
     padding-top: 15vh;
-    height: 100vh;
+    height: auto;
 }
 .contact-left{
     flex-basis: 35%;
@@ -414,6 +425,9 @@ form input::placeholder , form textarea::placeholder{
     color: #add4d9;
 
 }
+#about{
+    height: auto;
+} 
 form .btn2{
     padding: 14px 60px;
     font-size: 18px;
@@ -439,20 +453,33 @@ nav .fa-solid{
 /* -----------------------------------Responsive------------------------------ */
 @media only screen and (max-width:600px){
     #header{
-     
-        background-position: 15% bottom;
-        background-size: 90%;
-        height:70vh;
-    } 
+        width: calc(100vw - 20%);
+        height: 100vh;
+        display: flex;
+        background-color: #edf2f4;
+       
+        padding: 0 10%;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    
+    .header_Hero{
+        width:100vw;  
+    }
+    
+   
     .header_text{
         font-size: 16px;
-        padding-top: 2%;
         width: 100%;
-        margin-top: -15px;
         display: flex;
         flex-direction: column;
+        padding-top: 20vh;
     } 
-    
+    #header_container{
+        display: flex;
+        flex-direction: column;
+    }
     .header_text h1{
         font-size: 30px;
     }
@@ -523,6 +550,16 @@ nav .fa-solid{
         justify-self: center;
         background-color: #d90429;
     } 
+    .copyRight{
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        background: #add4d9;
+        font-weight: 300;
+        margin-top: 20px;
+        position: relative;
+        bottom: 0;
+    }
 }
 
 #msg{
