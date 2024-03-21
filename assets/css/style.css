@@ -5,6 +5,8 @@ body{
     color: #2b2d42;
     font-family: "Roboto", sans-serif;
     background-color: #edf2f4;
+    margin: 0;
+    padding: 0%;
 
 
 }
@@ -14,7 +16,7 @@ nav{
     align-items: center;
     background-color: #edf2f4;
     width: calc(100% - 80px);
-    position: fixed;
+    height: 5vh;
     padding: 10px 40px;
     z-index: 99999;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
@@ -74,9 +76,8 @@ nav ul li a:hover::after{
 }
 #header{
     width: calc(100vw - 20%);
-    height: calc(100vh - 8vh);
+    height: 86vh;
     display: flex;
-    background-color: #edf2f4;
     padding-top: 8vh;
    
     padding: 0 10%;
@@ -141,11 +142,15 @@ nav ul li a:hover::after{
     background-position: 46% center;
     border-radius: 15px;
     background-color: #add4d9;
+    
 }
 #about{
-    padding: 40px 0;
-    background-color: #edf2f4;
-    padding-top: 15vh;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: 83vh;
 } 
 .row{
     display: flex;
@@ -159,7 +164,7 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .sub-title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
     color: #4b5863;
 }
@@ -217,31 +222,39 @@ nav ul li a:hover::after{
 }
 /* -----------------------------------Services----------------------------------- */
 #Services{
-    padding: 30px 0;
-    padding-top: 10vh;
+    padding-top: 5vh;
+    height: auto;
 }
 .service-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
     grid-gap: 40px; 
-    margin-top: 50px;
+    margin: 50px 0;
         
 }
 .service-list article{
     background: #8d99ae;
-    padding: 40px;
+    padding: 0 20px 20px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 2s ,  transform 0.5s;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .service-list article i{
     font-size: 50px;
-    margin-bottom: 30px;
+    color: #add4d9;
+    margin: 30px 0;
 }
 .service-list article h2{
     margin-bottom: 15px;
 }
+.service-list article p{
+    font-size: 16px;
+}   
 .text{
     line-height: 30px;
     font-weight: 400;
@@ -257,6 +270,9 @@ display: inline-block;
 .service-list article:hover{
     background: #add4d9;
     transform: translateY(-10px)
+}
+.service-list article:hover i{
+    color:#8d99ae;
 }
 /* ----------------------------Portfolio--------------------------- */
 
@@ -425,9 +441,7 @@ form input::placeholder , form textarea::placeholder{
     color: #add4d9;
 
 }
-#about{
-    height: auto;
-} 
+
 form .btn2{
     padding: 14px 60px;
     font-size: 18px;
@@ -437,12 +451,12 @@ form .btn2{
 .copyRight{
     width: 100%;
     text-align: center;
-    padding: 25px 0;
     background: #add4d9;
     font-weight: 300;
-    margin-top: 20px;
-    position: absolute;
-    bottom: 0;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .copyRight p i{
     color: #d90429;
@@ -454,10 +468,7 @@ nav .fa-solid{
 @media only screen and (max-width:600px){
     #header{
         width: calc(100vw - 20%);
-        height: 100vh;
-        display: flex;
-        background-color: #edf2f4;
-       
+        height: 90vh;
         padding: 0 10%;
         align-items: center;
         flex-direction: column;
@@ -465,8 +476,8 @@ nav .fa-solid{
     }
     
     .header_Hero{
-        width:100vw;  
-    }
+        width:100%; 
+  }
     
    
     .header_text{
@@ -474,7 +485,8 @@ nav .fa-solid{
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding-top: 20vh;
+        padding-top: 30px;
+
     } 
     #header_container{
         display: flex;
@@ -518,6 +530,19 @@ nav .fa-solid{
     #image-AboutMe{
         height: 450px;
     }
+
+
+/* service */
+.service-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
+    grid-gap: 40px; 
+    margin: 50px 0;
+
+        
+}
+
+
     .aboutcol-1 , .aboutcol-2{
         flex-basis: 100%;
     }
@@ -553,12 +578,12 @@ nav .fa-solid{
     .copyRight{
         width: 100%;
         text-align: center;
-        padding: 25px 0;
         background: #add4d9;
         font-weight: 300;
-        margin-top: 20px;
-        position: relative;
-        bottom: 0;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
