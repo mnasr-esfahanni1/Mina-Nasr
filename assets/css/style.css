@@ -223,7 +223,7 @@ nav ul li a:hover::after{
 /* -----------------------------------Services----------------------------------- */
 #Services{
     padding-top: 5vh;
-    height: auto;
+    height: 100vh;
 }
 .service-list{
     display: grid;
