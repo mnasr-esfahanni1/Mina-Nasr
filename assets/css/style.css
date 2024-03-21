@@ -7,6 +7,7 @@ body{
     background-color: #edf2f4;
     margin: 0;
     padding: 0%;
+    font-size: 14px;
 
 
 }
@@ -223,7 +224,7 @@ nav ul li a:hover::after{
 /* -----------------------------------Services----------------------------------- */
 #Services{
     padding-top: 5vh;
-    height: 100vh;
+    height: auto;
 }
 .service-list{
     display: grid;
@@ -233,7 +234,7 @@ nav ul li a:hover::after{
         
 }
 .service-list article{
-    height: auto;
+    height: 400px;
     background: #8d99ae;
     padding: 0 20px 20px;
     font-size: 13px;
