@@ -384,8 +384,10 @@ color: #ffffff;
 
 /* --------------------------Contact----------------- */
 #contact{
-    padding-top: 15vh;
-    height: auto;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact-left{
     flex-basis: 35%;
@@ -563,6 +565,10 @@ nav .fa-solid{
     .work figure{
         width: 90vw;
        
+    }
+    #contact{
+        height: auto;
+        margin-top: 50px;
     }
     .contact-left , .contact-right{
         flex-basis: 100%;
