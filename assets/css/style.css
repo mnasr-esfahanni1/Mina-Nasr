@@ -231,11 +231,13 @@ nav ul li a:hover::after{
     margin: 50px 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
         
 }
 .service-list article{
-    width: 300px;
-    height: 400px;
+    width: 20vw;
+    max-height: 500px;
     background: #8d99ae;
     padding: 0 20px 20px;
     font-size: 13px;
@@ -246,6 +248,7 @@ nav ul li a:hover::after{
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 .service-list article i{
     font-size: 50px;
