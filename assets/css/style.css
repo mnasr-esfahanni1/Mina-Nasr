@@ -226,13 +226,16 @@ nav ul li a:hover::after{
     height: auto;
 }
 .service-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   
     grid-gap: 40px; 
     margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
         
 }
 .service-list article{
+    width: 300px;
+    height: 400px;
     background: #8d99ae;
     padding: 0 20px 20px;
     font-size: 13px;
