@@ -281,14 +281,13 @@ display: inline-block;
 
 #Portfolio{
     padding: 50px 0;
-    padding-top: 10vh;
 
 }
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 .work{
     border-radius: 10px;
@@ -650,5 +649,147 @@ color:#4b5863;
         transform: translateY(0);
         opacity: 1;
     }
+    
+}
+
+
+#hero-ux{
+    height: auto;
+    width: calc(100vw - 100px);
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row_UX{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#Ux-Title{
+    padding: 50px 0;
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffbbb8;
+}
+.Ux-left{
+    flex-basis: 50%;
+}
+.Ux-right{
+    flex-basis: 50%;
+}
+.Ux_subtitle{
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 20px 0;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.ux_Body{
+    font-weight: 200;
+    font-size: 16px;
+  
+    width: 50%;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+/* Hero */
+#Hero_image_UX{
+    background-image: url(../images/UX_LIGHTBLUE.png);
+    height: 80vh;
+    width: calc(100% - 200px);
+    margin: 25px 30px;
+    background-color: #e3edff;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#PROJECT_VISION , #Wireframe, #Journey{
+    padding: 0 100px; 
+}
+
+.Ux_presentation{
+    background-color: #fff;
+}
+/* LeanCanvas */
+.Ux_presentation ul{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+}
+
+.Ux_presentation ul li{
+    height: 420px;
+    width: 600px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#lean1{
+   
+    background-image: url(../images/LeanCanvas.png);
+}  
+#lean2{
+    
+    background-image: url(../images/Matrix.png);
+    
+}
+
+
+#lean3{
+    
+    background-image: url(../images/Persona1.png);
+    
+}
+#lean4{
+   
+    background-image: url(../images/JourneyMap1.png);
+    
+}
+#lean5{
+   
+    background-image: url(../images/Persona-2.png);
+    
+}
+#lean6{
+   
+    background-image: url(../images/Emapty_2.png);
+    
+}
+
+#bigImage{
+    background-image: url(../images/Untitled-2.jpg);
+    width: 90vw;
+    height: 1000vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#lean7{
+    
+    background-image: url(../images/JourneyMap2.png);
+    
+}
+#lean8{
+   
+    background-image: url(../images/Assumptive.png);
+    
+}
+#lean9{
+   
+    background-image: url(../images/ValidatedFlowpng.png);
+    
+}
+#lean10{
+   
+    background-image: url(../images/SiteMap.png);
     
 }

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+<script src="https://kit.fontawesome.com/ab8a8a2ce4.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+<title>Mina Nasr</title>
+</head>
+<body>
+    <!-- ___________________Header________________________ -->
+    <nav>
+        <div class="logo" ></div>
+        <ul id="sidemenu">
+            <li style="--i:1"><a href="index.html">Home</a></li>
+            <li style="--i:2"><a href="adout.html">About</a></li>
+            <li style="--i:3"><a href="services.html">Services</a></li>
+            <li style="--i:4"><a href="Portfolio.html">Portfolio</a></li>
+            <li style="--i:5"><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-square-xmark"  id="closeMenu" ></i>
+
+        </ul>
+        <i class="fa-solid fa-bars"  id="openMenu" ></i>
+    </nav>
+    
+    <main id="hero-ux">
+        <h1 id="Ux-Title">
+            Nature Cycle
+        </h1>
+        <div class="row_UX">
+            <div class="Ux-left">
+                <h1 class="Ux_subtitle">Project Overview</h1>
+                <p class="ux_Body">
+                    Introducing the NaturCycle app: Your gateway to sustainable beauty. Discover eco-friendly skincare, educational resources, 
+                    and join our recycling program. Embrace innovation and environmental responsibility with every tap.
+                </p>
+
+            </div>
+            <div class="Ux-right">
+
+                <h1 class="Ux_subtitle">PROBLEM</h1>
+                <p class="ux_Body">NaturCycle: Simplifying sustainable skincare by offering 
+                    eco-friendly options and promoting the benefits of recycling human waste in cosmetics.
+                </p>
+            </div>
+        </div>
+        <div id="Hero_image_UX">
+
+        </div>
+        <div id="PROJECT_VISION">
+          
+                <h1 class="Ux_subtitle">PROJECT VISION</h1>
+                <p class="ux_Body">
+                The NaturCycle project vision is to transform the beauty industry with an intuitive mobile app promoting
+                    sustainable practices. By connecting eco-conscious users to eco-friendly skincare derived from
+                    recycled human waste, NaturCycle empowers informed decisions and active participation in waste
+                    reduction, fostering a greener beauty approach.
+            </p>
+            
+        </div>
+
+
+        <div class="Ux_presentation">
+            <ul>
+                <li id="lean1"></li>
+                <li id="lean2"></li> 
+            </ul>
+            <ul id="sec-ul">
+                <li id="lean3"></li>
+                <li id="lean4"></li>
+            </ul>
+            <ul id="Third-ul">
+                <li id="lean5"></li>
+                <li id="lean6"></li>
+            </ul>
+        </div>
+
+
+        
+        <div id="Journey">
+          
+            <h1 class="Ux_subtitle">Journey Mapping & User Flow</h1>
+            <p class="ux_Body">
+                In this UX/UI project, I prioritized creating a seamless journey map and user flow. Through thorough analysis and research, I crafted intuitive touchpoints to enhance user navigation. Iterative refinement 
+                based on journey map insights aimed to optimize usability and satisfaction.
+        </p>
+        
+        </div>
+        <div class="Ux_presentation">
+            <ul>
+                <li id="lean7"></li>
+                <li id="lean8"></li>
+              </ul>
+              <ul >
+                <li id="lean9"></li>
+                <li id="lean10"></li>
+            </ul>
+
+        </div>
+        <div id="Wireframe">
+          
+            <h1 class="Ux_subtitle">From Sketches to Wireframes</h1>
+            <p class="ux_Body">
+                In the initial stages of design,I started with quick sketches to explore ideas. These evolved into wireframes, simplifying the interface layout. 
+                These wireframes were essential for communicating design concepts effectively.
+        </p>
+
+        <div class="Ux_presentation">
+            <ul>
+                <li id="lean11"></li>
+                <li id="lean12"></li>
+              </ul>
+              <ul >
+                <li id="lean13"></li>
+                <li id="lean14"></li>
+            </ul>
+
+        </div>
+        
+
+        <!-- <div id="bigImage">
+
+        </div> -->
+
+
+
+
+
+
+
+
+    </main>
+    <footer class="copyRight">
+        <p> © 2024. All rights reserved. Made with <i class="fa-solid fa-heart"></i> By Mina Nasr</p>
+    </footer>
+
+   
+
+
+
+
+    <script >
+
+        var tablinks = document.getElementsByClassName("tab_links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          
+            for(tablink of tablinks){
+                tablink.classList.remove('active-links');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tabs');
+            }
+            event.currentTarget.classList.add('active-links');
+            document.getElementById(tabname).classList.add('active-tabs');
+
+}
+    </script>
+      <script>
+        var typed = new Typed('.text1', {
+            strings: [" Web Designer" , "UX/UI Designer" , "Front End Developer"],
+   typeSpeed:100, 
+   backSpeed: 100, 
+   backDelay: 1000,
+  loop: true
+        });
+      </script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
