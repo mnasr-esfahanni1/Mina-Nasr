@@ -87,6 +87,8 @@ nav ul li a:hover::after{
    
     padding: 0 10%;
     align-items: center;
+    overflow: hidden;
+    overflow-y: hidden;
     
 }
 
