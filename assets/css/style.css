@@ -22,6 +22,7 @@ nav{
     padding: 10px 40px;
     z-index: 99999;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+    overflow: hidden;
 
 }
 #ux{
@@ -230,6 +231,7 @@ nav ul li a:hover::after{
 /* -----------------------------------Services----------------------------------- */
 #Services{
     padding: 30px 0;
+    overflow: hidden;
 }
 .service-list{
     display: grid;
@@ -269,6 +271,90 @@ display: inline-block;
     background: #add4d9;
     transform: translateY(-10px)
 }
+#SkilisIcon{
+    margin: 30px 0;
+    
+}
+#icon {
+    width: auto;
+    height: 6vh;
+    margin:10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+#SkilisIcon{
+    display: flex;
+    flex-direction: column;
+}
+#icon li{
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% ;
+    background-color: #add4d9;
+    padding: 10px;
+    transition: background 2s ,  transform 0.5s;
+    border-radius: 50%;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+#XD{
+    background-image: url(../images/xd.png);
+}
+#Ai{
+    background-image: url(../images/illustrator.png);
+}
+#Ae{
+    background-image: url(../images/after-effects.png);
+}
+#ps{
+    background-image: url(../images/photoshop.png);
+}
+#ind{
+    background-image: url(../images/indesign.png);
+}
+#pr{
+    background-image: url(../images/premiere-pro.png);
+}
+#Lr{
+    background-image: url(../images/photoshop-lightroom.png);
+}
+/* Sencond */
+#Figma{
+    background-image: url(../images/figma.png);
+}
+#Html{
+    background-image: url(../images/html-5.png);
+}
+#CSS{
+    background-image: url(../images/css.png);
+}
+#Java{
+    background-image: url(../images/js.png);
+}
+#Git{
+    background-image: url(../images/github.png);
+}
+#bootsrap{
+    background-image: url(../images/Bootsrap.webp);
+}
+#wordpress{
+    background-image: url(../images/web.png);
+}
+#icon li:hover{
+    background-color: #8d99ae;
+    transform: translateY(+10px)
+
+}
+
+
+
+
+
 /* ----------------------------Portfolio--------------------------- */
 
 #Portfolio{
