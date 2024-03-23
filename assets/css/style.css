@@ -718,6 +718,8 @@ color:#4b5863;
 /* LeanCanvas */
 .Ux_presentation ul{
     display: flex;
+    width: calc(100% - 200px);
+
     height: 500px;
     justify-content: space-between;
     align-items: center;
