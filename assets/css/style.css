@@ -1087,5 +1087,8 @@ color: #ffffff;
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
+} 
+#restuarant_mockup{
+background-image: url(../images/monitor_withoutBack.png);
 }
 
