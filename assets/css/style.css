@@ -300,7 +300,6 @@ display: inline-block;
     padding: 10px;
     transition: background 2s ,  transform 0.5s;
     border-radius: 50%;
-    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -349,7 +348,9 @@ display: inline-block;
 }
 #icon li:hover{
     background-color: #8d99ae;
-    transform: translateY(+10px)
+    transform: translateY(+10px);
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+
 
 }
 
@@ -476,7 +477,12 @@ color: #ffffff;
 }
 .contact-left{
     flex-basis: 35%;
+
 }
+.contact-left a{
+margin: 20px 0;
+}
+
 .contact-right{
     flex-basis: 60%;
 }
@@ -505,9 +511,10 @@ color: #ffffff;
     box-shadow: 0 0 20px #add4d9 ;
 }
 .btn2{
-    display: inline-block;
+   
     background-color: #add4d9;
     margin: 50px 0; 
+    font-size: 18px;
 
 }
 .contact-right form{
