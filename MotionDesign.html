@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+<script src="https://kit.fontawesome.com/ab8a8a2ce4.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+<title>Mina Nasr</title>
+</head>
+<body>
+    <!-- ___________________Header________________________ -->
+    <nav>
+        <div class="logo" ></div>
+        <ul id="sidemenu">
+            <li style="--i:1"><a href="index.html">Home</a></li>
+            <li style="--i:2"><a href="adout.html">About</a></li>
+            <li style="--i:3"><a href="services.html">Services</a></li>
+            <li style="--i:4"><a href="Portfolio.html">Portfolio</a></li>
+            <li style="--i:5"><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-square-xmark"  id="closeMenu" ></i>
+
+        </ul>
+        <i class="fa-solid fa-bars"  id="openMenu" ></i>
+    </nav>
+    
+    <main id="Motion_Design">
+        <h1 class="sub-title">Motion Design</h1>
+        <div id="motion1" class="motion_Item">
+            <p class="ux_Body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti consectetur deserunt 
+            consequatur fugit quas ea doloremque error, eos officia nulla ullam sed numquam vitae eius officiis distinctio! Hic, dolore!
+            </p>
+            <video  controls>
+                <source src="assets/videos/MotionDesignProduction.mp4" type="video/mp4">
+                
+              </video>
+
+        </div>
+        <div id="motion2" class="motion_Item">
+            <p class="ux_Body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti consectetur deserunt 
+            consequatur fugit quas ea doloremque error, eos officia nulla ullam sed numquam vitae eius officiis distinctio! Hic, dolore!
+            </p>
+            <video  controls>
+                <source src="assets/videos/MinaNasr_Nike.mp4" type="video/mp4">
+                
+              </video>
+
+        </div>
+        <div id="motion3" class="motion_Item">
+            <p class="ux_Body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti consectetur deserunt 
+            consequatur fugit quas ea doloremque error, eos officia nulla ullam sed numquam vitae eius officiis distinctio! Hic, dolore!
+            </p>
+            <video  controls>
+                <source src="assets/videos/pet.mp4" type="video/mp4">
+                
+              </video>
+
+        </div>
+        <div id="motion4" class="motion_Item">
+            <p class="ux_Body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti consectetur deserunt 
+            consequatur fugit quas ea doloremque error, eos officia nulla ullam sed numquam vitae eius officiis distinctio! Hic, dolore!
+            </p>
+            <video  controls>
+                <source src="assets/videos/Mega Munch.Group2.Youtube.mp4" type="video/mp4">
+                
+              </video>
+
+        </div>
+        <div id="motion5" class="motion_Item">
+            <p class="ux_Body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti consectetur deserunt 
+            consequatur fugit quas ea doloremque error, eos officia nulla ullam sed numquam vitae eius officiis distinctio! Hic, dolore!
+            </p>
+            <video  controls>
+                <source src="assets/videos/VFX.MP4" type="video/mp4">
+                
+              </video>
+
+        </div>
+        
+       
+       
+       
+
+
+
+
+
+
+
+
+    </main>
+    <footer class="copyRight">
+        <p> © 2024. All rights reserved. Made with <i class="fa-solid fa-heart"></i> By Mina Nasr</p>
+    </footer>
+
+   
+
+
+
+
+    <script >
+
+        var tablinks = document.getElementsByClassName("tab_links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          
+            for(tablink of tablinks){
+                tablink.classList.remove('active-links');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tabs');
+            }
+            event.currentTarget.classList.add('active-links');
+            document.getElementById(tabname).classList.add('active-tabs');
+
+}
+    </script>
+      <script>
+        var typed = new Typed('.text1', {
+            strings: [" Web Designer" , "UX/UI Designer" , "Front End Developer"],
+   typeSpeed:100, 
+   backSpeed: 100, 
+   backDelay: 1000,
+  loop: true
+        });
+      </script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
