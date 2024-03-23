@@ -692,7 +692,6 @@ color:#4b5863;
     font-weight: 400;
     font-size: 18px;
   
-    width: 50%;
     line-height: 25px;
     margin-bottom: 25px;
 }
@@ -708,7 +707,7 @@ color:#4b5863;
     background-size: contain;
     background-repeat: no-repeat;
 }
-#PROJECT_VISION , #Wireframe, #Journey{
+#PROJECT_VISION , #Wireframe, #Journey , #Mockups{
     padding: 0 100px; 
 }
 
@@ -805,5 +804,16 @@ color:#4b5863;
 #lean14{
    
     background-image: url(../images/MID-FI.png);
+    
+}
+#prototype{
+    margin: 50px 0;
+    width: calc(100% - 200px);
+    height: 100vh;
+    background-image: url(../images/MuckupAll.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #e3edff;
     
 }
