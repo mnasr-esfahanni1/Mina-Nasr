@@ -714,13 +714,14 @@ color:#4b5863;
 
 .Ux_presentation{
     background-color: #fff;
+    width: calc(100% - 200px);
+
 }
 /* LeanCanvas */
 .Ux_presentation ul{
     display: flex;
-    width: calc(100% - 200px);
-
     height: 500px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
  
