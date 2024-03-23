@@ -721,7 +721,7 @@ color:#4b5863;
 .Ux_presentation ul{
     display: flex;
     height: 500px;
-    width: 100%;
+    
     justify-content: space-between;
     align-items: center;
  
@@ -730,7 +730,7 @@ color:#4b5863;
 
 .Ux_presentation ul li{
     height: 420px;
-    width: 600px;
+    width: 650px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
