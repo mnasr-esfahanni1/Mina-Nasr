@@ -1069,7 +1069,7 @@ color: #ffffff;
     flex-direction: column;
     padding-top: 5vh;
 }
-#Js_title{
+.Js_title{
     color: #4b5863;
 }
 #NameWeb{
@@ -1113,4 +1113,30 @@ background-image: url(../images/monitor_withoutBack.png);
 }
 #MyPortfolio{
     background-image: url(../images/Myprotfolio.png);
+}
+/* ------------------------------------WebAPI---------------------------------------- */
+#WebAPI{
+    width: calc(100vw - 100px);
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5vh;
+
+}
+/* #Hero_image_API{
+    background-image: url(../images/API.png);
+    height: 80vh;
+    width: calc(100% - 200px);
+    margin: 25px 30px;
+    background-color: #e3edff;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+#API{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
 }
