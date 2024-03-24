@@ -558,152 +558,7 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-/* -----------------------------------Responsive------------------------------ */
-@media only screen and (max-width:440px){
-    #header{
-        width: calc(100vw - 20%);
-        height: 90vh;
-        padding: 0 10%;
-        align-items: center;
-        flex-direction: column;
-        
-    }
-    
-    .header_Hero{
-        width:100%; 
-  }
-    
-   
-    .header_text{
-        font-size: 16px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding-top: 30px;
 
-    } 
-    #header_container{
-        display: flex;
-        flex-direction: column;
-    }
-    .header_text h1{
-        font-size: 30px;
-    }
-    nav .fa-solid{
-        display: block;
-        font-size: 25px;
-    }
-    #sidemenu{
-        background:#add4d9; 
-        position: fixed;
-        top: 0; 
-        right: -200px;
-        width: 200px; 
-        height: 100vh; 
-        padding-top: 50px;
-        z-index: 2; 
-        transition: right ease 0.5s;
-    }
-   
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul .fa-solid{
-        position: absolute;
-        top:25px;
-        left: 25px;
-        cursor: pointer;
-        color: #4b5863;
-        font-size: 30px;
-    }
-    .sub-title{
-        font-size: 40px;
-      
-    }
-    #image-AboutMe{
-        height: 450px;
-    }
-
-
-/* service */
-.service-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
-    grid-gap: 40px; 
-    margin: 50px 0;
-
-        
-}
-#Services{
-    height: auto;
-}
-#SkilisIcon{
-    margin-bottom: 2vh;
-    height: auto;
-}
-#icon{
-    height: auto;
-    justify-content: center;
-     
-}
-
-
-#footerService{
-    position: relative;
-}
-#about{
-    height: auto;
-}
-
-
-    .aboutcol-1 , .aboutcol-2{
-        flex-basis: 100%;
-    }
-    .aboutcol-1{
-        margin-bottom: 30px;
-    }
-   .aboutcol-2{
-
-        font-size: 14px;
-    }
-    .tab_links{
-        font-size: 16px;
-        margin-right: 20px;
-    }
-    .work figure{
-        width: 90vw;
-       
-    }
-    #contact{
-        height: auto;
-        margin-top: 50px;
-    }
-    .contact-left , .contact-right{
-        flex-basis: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .contact-right{
-        justify-content: center;
-        margin-right: 25px;
-    }
-    form button{
-        justify-self: center;
-        background-color: #d90429;
-    } 
-    .copyRight{
-        width: 100%;
-        text-align: center;
-        background: #add4d9;
-        font-weight: 300;
-        height: 5vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
 
 #msg{
 color:#4b5863;
@@ -712,52 +567,7 @@ color:#4b5863;
  font-weight: 600;
  font-size: 30px;
 }
-
-@keyframes sildeRight {
-    0%{
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
-    
-}
-
-@keyframes SildeLeft {
-    0%{
-        transform: translateX(100px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
-    
-}
-@keyframes slideTop {
-    0%{
-        transform: translateX(400px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
-    
-}
-@keyframes SlideBottom {
-    0%{
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateY(0);
-        opacity: 1;
-    }
-    
-}
+/* ---------------------UX_NatureCycle -------------------------------- */
 
 
 #hero-ux{
@@ -1139,5 +949,270 @@ background-image: url(../images/monitor_withoutBack.png);
     width: 100%;
     height: auto;
     margin-bottom: 30px;
+    
+}
+
+
+/* -----------------------------------Responsive------------------------------ */
+@media only screen and (max-width:440px){
+    #header{
+        width: calc(100vw - 20%);
+        height: 90vh;
+        padding: 0 10%;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    
+    .header_Hero{
+        width:100%; 
+  }
+    
+   
+    .header_text{
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+
+    } 
+    #header_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .header_text h1{
+        font-size: 30px;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    #sidemenu{
+        background:#add4d9; 
+        position: fixed;
+        top: 0; 
+        right: -200px;
+        width: 200px; 
+        height: 100vh; 
+        padding-top: 50px;
+        z-index: 2; 
+        transition: right ease 0.5s;
+    }
+   
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top:25px;
+        left: 25px;
+        cursor: pointer;
+        color: #4b5863;
+        font-size: 30px;
+    }
+    .sub-title{
+        font-size: 40px;
+      
+    }
+    #image-AboutMe{
+        height: 450px;
+    }
+
+
+/* service */
+.service-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
+    grid-gap: 40px; 
+    margin: 50px 0;
+
+        
+}
+#Services{
+    height: auto;
+}
+#SkilisIcon{
+    margin-bottom: 2vh;
+    height: auto;
+}
+#icon{
+    height: auto;
+    justify-content: center;
+     
+}
+
+
+#footerService{
+    position: relative;
+}
+#about{
+    height: auto;
+}
+
+
+    .aboutcol-1 , .aboutcol-2{
+        flex-basis: 100%;
+    }
+    .aboutcol-1{
+        margin-bottom: 30px;
+    }
+   .aboutcol-2{
+
+        font-size: 14px;
+    }
+    .tab_links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .work figure{
+        width: 90vw;
+       
+    }
+    #contact{
+        height: auto;
+        margin-top: 50px;
+    }
+    .contact-left , .contact-right{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contact-right{
+        justify-content: center;
+        margin-right: 25px;
+    }
+    form button{
+        justify-self: center;
+        background-color: #d90429;
+    } 
+    .copyRight{
+        position: relative;
+
+        width: 100%;
+        text-align: center;
+        background: #add4d9;
+        font-weight: 300;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seeMore{
+        display: none;
+    }
+
+    /*------------------------------------ UX Product */
+    
+    .row_UX{
+        padding: 0 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .Ux-Title{
+      font-size: 40px;
+        text-align: center;
+    }
+    .Ux-left , .Ux-right{
+        flex-basis: 1;
+        width: 90vw;
+
+    }
+   
+   
+    /* Hero */
+    #Hero_image_UX{
+        height: 40vh;
+        width: 100%;
+      
+       
+    }
+    #PROJECT_VISION , #Wireframe, #Journey , #Mockups{
+        padding: 0 10px; 
+    }
+    
+    .Ux_presentation{
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    /* LeanCanvas */
+    .Ux_presentation ul{
+        height: auto;
+        flex-direction: column;
+       
+     
+    
+    }
+    
+    .Ux_presentation ul li{
+        height: 230px;
+        width: 280px;
+        
+    }
+
+    #prototype{
+        height: 30vh;
+        width: 100%;
+        
+    }
+    .Ux_subtitle{
+        line-height: 33px;
+    }
+
+}
+
+
+
+@keyframes sildeRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes SildeLeft {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+@keyframes slideTop {
+    0%{
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+@keyframes SlideBottom {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
     
 }

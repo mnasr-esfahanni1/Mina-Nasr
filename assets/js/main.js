@@ -29,7 +29,7 @@ closeMenue.addEventListener("click" , function(){
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => { 
-        msg.innerHTML = `message sent succefully `
+        msg.innerHTML = `Message sent succefully `
 
         setTimeout(function(){
             msg.innerHTML = " "
