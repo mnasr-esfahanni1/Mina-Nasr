@@ -1084,7 +1084,7 @@ color: #ffffff;
     width: calc(100% - 200px);
     margin: 25px 30px;
     background-color:#4b5863;
-    background-position: top;
+    background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 } 
