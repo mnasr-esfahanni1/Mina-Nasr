@@ -456,10 +456,11 @@ border: 1px solid #add4d9;
 padding: 14px 50px;
 border-radius: 6px; 
 text-decoration: none;
-color:#2b2d42;
+color:#fcfcfc;
 transition: background 0.5s;
 font-size: 16px;
 transition: color 0.5s;
+background-color: #4b5863;
 
 }
 
