@@ -735,7 +735,7 @@ color:#4b5863;
     background-color: #e3edff;
     
 }
-/* Motion Design */
+/*------------------------------------ Motion Design ------------------------------------ */
 #Motion_Design {
     padding: 30px 10%;
 
@@ -1205,6 +1205,20 @@ background-image: url(../images/monitor_withoutBack.png);
     height: 20vh;
     width: 100%;
 } 
+/*------------------------------------ Motion Design ------------------------------------ */
+
+#motion1{
+    margin-top: 50px;
+}
+.motion_Item{
+    
+    flex-wrap: wrap;
+}
+video{
+    width:400px;
+   
+}
+
 }
 
 
