@@ -1108,5 +1108,9 @@ background-image: url(../images/monitor_withoutBack.png);
 
 }
 #web_API{
+    background-image: url(../images/API_withoutBack.png);
 
+}
+#MyPortfolio{
+    background-image: url(../images/Myprotfolio.png);
 }
