@@ -1166,6 +1166,9 @@ background-image: url(../images/monitor_withoutBack.png);
     .Ux_subtitle{
         line-height: 33px;
     }
+    #ux{
+        position: relative;
+    }
 
 }
 
