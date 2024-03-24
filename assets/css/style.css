@@ -355,7 +355,7 @@ display: inline-block;
 }
 
 
-#footerService{
+.footerService{
     position: absolute;
     bottom: 0;
 }
@@ -949,7 +949,6 @@ video{
 
 #WebDesign{
     width: 100vw;
-    height: auto;
     padding: 50px 0;
 }
 
@@ -994,7 +993,7 @@ video{
 .Web_layer{
     width: calc(100% - 80px); 
     height: 0; 
-    background: linear-gradient(#8d99ae7c,#d90429);
+    background: linear-gradient(#2b2d42,#add4d9);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -1055,6 +1054,10 @@ transition: color 0.5s;
 background: #add4d9;
 color: #ffffff;
 }
+#seeMore a{
+   margin:  10px auto;
+
+}
 #JsLibrary{
 
     width: calc(100vw - 100px);
@@ -1071,7 +1074,7 @@ color: #ffffff;
 #NameWeb{
     text-decoration: none;
     font-size: 30px;
-    color:#4b5863;
+    color: #d90429;
     text-align: center;
     font-weight: 600;
 
