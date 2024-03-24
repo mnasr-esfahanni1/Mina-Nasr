@@ -1058,6 +1058,7 @@ color: #ffffff;
    margin:  10px auto;
 
 }
+/* ---------------------------------JS Library---------------------------- */
 #JsLibrary{
 
     width: calc(100vw - 100px);
@@ -1102,4 +1103,10 @@ color: #ffffff;
 #restuarant_mockup{
 background-image: url(../images/monitor_withoutBack.png);
 }
+.Web figure{
+    background-color:#4b5863;
 
+}
+#web_API{
+
+}
