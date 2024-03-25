@@ -232,7 +232,7 @@ nav ul li a:hover::after{
 #Services{
     padding: 30px 0;
     overflow: hidden;
-    height: auto;
+    height: 100vh;
 }
 .service-list{
     display: grid;
